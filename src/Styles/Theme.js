@@ -12,8 +12,8 @@ export default {
     boxBorder: "1px solid #dbdbdb",
     borderRadius: "1px",
     whiteBox: `
-        ${BORDER_RADIUS};
-        ${BOX_BORDER};
+        border:${BORDER_RADIUS};
+        border-radius:${BOX_BORDER};
         background-color:white;
     `
 }
